@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+.navbarList li{
+    display : inline-block;
+    text-decoration: none;
+    list-style: none;
+    /* border : 2px solid green; */
+    margin : 0 4rem;
+    font-size : 20px;
+    
+}
+.navbarList li a{
+    /* display : inline-block; */
+    text-decoration: none;
+    color : black;
+    margin : 0.5rem;
+}
+
+.SiteTitle{
+    /* display : inline-block; */
+    /* border : 2px solid purple; */
+    text-align: center;
+    margin-top : 0.9rem;
+    color : black;
+    
+}
+body{
+    background: url(totalBackground.jpg);
+    content : ""; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbarList{
+    display : inline-block;
+    /* border : 2px solid pink; */
+    margin: 1rem;
+    /* background-color: rgb(252, 239, 220); */
+    /* border-radius: 2rem; */
+    
+}
+.navbar{
+    border : 1px solid black;  
+    border-radius : 0.3rem;
+    display : flex;
+    justify-content: center;
+    /* background-color: rgb(247, 242, 228); */
+    margin-top : 2rem;
+}
+.siteIcon{
+    display : block;
+    width: 4%;
+    /* border : 2px solid red; */
+    margin : 0 auto 0 auto;
+    height : 4%;
+}
+.Header{
+    /* border : 2px solid yellow; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* .Header{
+    background-image: url(RedRoseHeadBackground.jpg);
+    content : "";
+    width : 100%;
+    height : 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+
+} */
+
+
+.Services{
+    display : flex;
+    margin-top : 3rem;
+}
+
+.sideImage{
+    height : 13rem;
+    width :10rem;
+    margin-left : 3rem;
+}
+#serviceTitle{
+    position: absolute;
+    left:44rem;
+}
+.servicePara{
+    margin-top : 4rem;
+    /* border : 2px solid green; */
+
+}
+#serText{
+    /* border : 2px solid black; */
+    width : 58%;
+    margin-left : 18rem;
+    
+}
+
+
+#ratingTitle{
+    position: absolute;
+    /* border : 2px solid blue; */
+    left:44rem;
+    top : 31rem;
+}
+
+.sideImageRight{
+    height : 13rem;
+    /* border : 2px solid black; */
+    width :10rem;
+    margin-top : 7rem;
+    margin-left : 80rem;
+}
+#ratText{
+    /* border : 2px solid blue; */
+    width : 58%;
+    position : absolute;
+    margin-left : 5rem;
+    margin-top : 10rem;
+}
+
+.Accounts{
+    margin-top : 2rem;
+}
+
+#logins{
+    /* border : 2px solid orange; */
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top : 3rem;
+
+}
+#logins > img{
+    width : 7%;
+    height : 7%;
+}
+
+.accountTitle{
+    /* border : 2px solid red; */
+    text-align: center;
+}
+.navbarList li a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
